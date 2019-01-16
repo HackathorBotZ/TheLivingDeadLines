@@ -60,7 +60,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\templates\app\list.html" />
-    <Content Include="app\templates\app\submission.html" />
     <Content Include="app\templates\app\upload.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />

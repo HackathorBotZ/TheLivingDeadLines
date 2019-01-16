@@ -99,17 +99,6 @@ def about(request):
         }
     )
 
-def submission(request):
-    """Renders the about page."""
-    assert isinstance(request, HttpRequest)
-    return render(
-        request,
-        'app/submission.html',
-        {
-            'title':'Submissions',
-        }
-    )
-
 def simple_upload(request):
     if request.method == 'POST' and request.FILES['myfile']:
         myfile = request.FILES['myfile']
