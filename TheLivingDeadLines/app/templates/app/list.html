@@ -1,8 +1,4 @@
-{% extends "app/layout.html" %}
-
-{% block content %}
-
-{{ title }}
+﻿
 {% if documents %}
             <ul>
                 {% for document in documents %}
@@ -27,5 +23,3 @@
 
             <p><input type="submit" name="uploadbutton" value="Upload"/></p>
         </form>
-
-{% endblock %}

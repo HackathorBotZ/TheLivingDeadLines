@@ -42,6 +42,9 @@
     <Compile Include="TheLivingDeadLines\settings.py" />
     <Compile Include="TheLivingDeadLines\urls.py" />
     <Compile Include="TheLivingDeadLines\wsgi.py" />
+    <Compile Include="urls.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\" />
@@ -56,6 +59,9 @@
     <Folder Include="TheLivingDeadLines\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\templates\app\list.html" />
+    <Content Include="app\templates\app\submission.html" />
+    <Content Include="app\templates\app\upload.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
